@@ -4,7 +4,7 @@ for (let i = 0; i < 25; i++) {
     return "I am 1 strange loop."
   }
   else {
-    return "I am ${i} strange loops."
+    return "I am ${i} strange loops${i === 0 ? '' : 's'}."
   }
 }
 return array
@@ -20,7 +20,7 @@ function whileLoop(n) {
 function doWhileLoop(array) {
   return Math.random() >= 0.5
   do {
-array.pop()
+  array.pop()
   } while (array.length > 0 && maybeTrue());
 return array
 }
