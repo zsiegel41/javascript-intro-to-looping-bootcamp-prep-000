@@ -1,4 +1,4 @@
-function forLoop(arr) {
+function forLoop(array) {
 for (let i = 0; i < 25; i++) {
   if (i === 1) {
     return "I am 1 strange loop."
@@ -7,7 +7,7 @@ for (let i = 0; i < 25; i++) {
     return "I am ${i} strange loops."
   }
 }
-return arr
+return array
 }
 
 function whileLoop(n) {
@@ -17,4 +17,9 @@ function whileLoop(n) {
   return "done"
 }
 
-function doWhileLoop()
+function doWhileLoop(array) {
+  do {
+    
+  } while ();
+  
+}
